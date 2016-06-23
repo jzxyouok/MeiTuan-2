@@ -3,7 +3,6 @@ package com.lzctbyong.www.meituan.CityPicker;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
-
 import com.lzctbyong.www.meituan.CityPicker.Interface.letterinterface;
 import com.lzctbyong.www.meituan.CityPicker.V.SideLetterBar;
 import com.lzctbyong.www.meituan.R;
@@ -28,6 +27,7 @@ public class CityiPckerActivity extends AppCompatActivity {
 
             }
         });
+
     }
 
     private void findview() {
