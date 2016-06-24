@@ -7,5 +7,6 @@
     <color name="gray_deep">#5c5c5c</color>
     <color name="alpha_gray">#CC646464</color>
     <color name="bg">#41e1dfdf</color>
+    <color name="titilebg">#f9f9f9</color>
 
 </resources>

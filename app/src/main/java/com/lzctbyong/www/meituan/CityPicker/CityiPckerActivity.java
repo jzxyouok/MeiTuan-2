@@ -1,7 +1,9 @@
 package com.lzctbyong.www.meituan.CityPicker;
 
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 import com.lzctbyong.www.meituan.CityPicker.Interface.letterinterface;
@@ -33,5 +35,9 @@ public class CityiPckerActivity extends AppCompatActivity {
     private void findview() {
         this.sideletterbar = (SideLetterBar) findViewById(R.id.side_letter_bar);
         this.tvletteroverlay = (TextView) findViewById(R.id.tv_letter_overlay);
+    }
+
+    public void backtomain(View view) {
+        NavUtils.navigateUpFromSameTask(this);
     }
 }

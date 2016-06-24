@@ -144,7 +144,7 @@ public class SideLetterBar extends View {
         }
         return true;
     }
-    
+
     
     public void setOnLetterChangedListener(letterinterface onLetterChangedListener) {
         this.mLetterinterface = onLetterChangedListener;
